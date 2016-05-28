@@ -1,0 +1,16 @@
+group 'no.kodehuset.junit5'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit', name: 'junit5-api', version: '5.0.0-ALPHA'
+    testCompile group: 'org.junit', name: 'junit4-runner', version: '5.0.0-ALPHA'
+    testCompile group: 'org.junit', name: 'junit5-engine', version: '5.0.0-ALPHA'
+}
